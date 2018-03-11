@@ -6,11 +6,12 @@ import "../App.css";
 class home extends Component {
   render() {
     return (
+      <Text> Hello Home! </Text>
       <div className="App">
         <Navbar>
            <Button className="btn btn-primary" href="#"> Home </Button>
            <Button className="btn btn-primary" href="#"> Portofilio </Button>
-           <Button className="btn" href="#"> contactus </Button> 
+           <Button className="btn" href="#"> contactus </Button>
         </Navbar>
       </div>
     );
