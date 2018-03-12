@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
 
-import "../App.css";
+class Portfolio extends Component {
 
-
-
-class home extends Component {
-  
   render() {
 
     return (
       <div className="App">
-        <h1> Home! </h1>
+        <h1> Portfolio! </h1>
       </div>
     );
   }
-
 }
 
-
-export default home;
+export default Portfolio;

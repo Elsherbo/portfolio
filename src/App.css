@@ -1,3 +1,7 @@
+body{
+  text-align: center;
+
+}
 .btn {
   margin: 5px;
 }
@@ -5,7 +9,19 @@
   text-align: center;
 }
 
+.menuButton {
+  margin-Left: -12;
+  margin-Right: 20;
+}
+
+
+
+
+
+
+
 .App-logo {
+  font-family: 'Roboto', sans-serif;
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
@@ -32,3 +48,6 @@
   to { transform: rotate(360deg); }
 }
 
+.active {
+  background-color: #FAFAFA;
+}
